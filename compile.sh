@@ -1,1 +1,1 @@
-gcc  -o test test.c -I ../include -L ../lib -lbdd -lmem
+gcc  -o output problem.c -I ../include -L ../lib -lbdd -lmem
