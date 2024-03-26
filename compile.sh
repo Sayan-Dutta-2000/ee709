@@ -1,1 +1,1 @@
-gcc  -o hello_world hello_world.c -I ../include -L ../lib -lbdd -lmem
+gcc  -o test test.c -I ../include -L ../lib -lbdd -lmem
