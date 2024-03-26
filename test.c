@@ -11,8 +11,8 @@ int main (int argc, char* argv[])
 	bdd x1 = bdd_new_var_last(bddm);
 	bdd x2 = bdd_new_var_last(bddm);
 	bdd x3 = bdd_new_var_last(bddm);
-	bdd x5 = bdd_new_var_last(bddm);
 	bdd x4 = bdd_new_var_last(bddm);
+	bdd x5 = bdd_new_var_last(bddm);
 	bdd x6 = bdd_new_var_last(bddm);
 
 	// compute y = (x2.x1)+x0
