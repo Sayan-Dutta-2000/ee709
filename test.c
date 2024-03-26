@@ -23,8 +23,8 @@ int main (int argc, char* argv[])
 	bdd e = bdd_and(bddm,x5,x6);
 	bdd f = bdd_not(bddm,e);
 
-	bdd g = bdd_or(bddm,b,d);
-	bdd y = bdd_or(bddm,g,f);
+	bdd g = bdd_and(bddm,b,d);
+	bdd y = bdd_and(bddm,g,f);
 
 	printf("----------------------------------------------------\n");
 
