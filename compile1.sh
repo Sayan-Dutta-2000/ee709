@@ -1,1 +1,1 @@
-gcc  -o output problem1.c -I ../include -L ../lib -lbdd -lmem
+gcc  -o PART2_BDD_out PART2_BDD.c -I ../include -L ../lib -lbdd -lmem
