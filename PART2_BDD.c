@@ -36,7 +36,7 @@ int main(int argc, char* argv[])
 
     bdd eq1 = bdd_xnor(bddm,ei,es);
     bdd eq2 = bdd_xnor(bddm,c1i,c1s);
-    bdd eq3 = bdd_xnor(bddm,c01,c0s);
+    bdd eq3 = bdd_xnor(bddm,c0i,c0s);
     bdd eq_and = bdd_and(bddm,eq1,bdd_and(bddm,eq2,eq3));
 
     bdd x_char=bdd_or(bddm,fdc,eq_and);
