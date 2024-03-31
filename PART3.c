@@ -31,7 +31,7 @@ int main(int argc, char* argv[]){
     bdd x0_char = bdd_xnor(bddm,y1_0,y2_0);
 
     printf("-------------------------------------\n");
-    bdd_print(bddm,x0_char,NULL,NULL,NULL,stdout);
+    bdd_print_bdd(bddm,x0_char,NULL,NULL,NULL,stdout);
     printf("-------------------------------------\n");
 
     if(x0_char){
@@ -51,7 +51,7 @@ int main(int argc, char* argv[]){
     bdd_print_bdd(bddm,x1_char,NULL,NULL,NULL,stdout);
     printf("-------------------------------------\n");
 
-    bdd_comp_one=bdd_one(bddm);
+    bdd comp_one=bdd_one(bddm);
     if(x1_char){
         printf("Outputs are equal at k=1\n");
     }
