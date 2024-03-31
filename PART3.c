@@ -52,7 +52,7 @@ int main(int argc, char* argv[]){
     printf("-------------------------------------\n");
 
     bdd comp_one=bdd_one(bddm);
-    if(x1_char){
+    if(x1_char==comp_one){
         printf("Outputs are equal at k=1\n");
     }
     else{
