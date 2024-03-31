@@ -1,6 +1,6 @@
 #include <bdduser.h>
 
-int main(int argc, char*,argv[])
+int main(int argc, char* argv[])
 {
     bdd_manager bddm = bdd_init();
     bdd u0 = bdd_new_var_last(bddm);
